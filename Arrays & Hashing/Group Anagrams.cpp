@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        int track = 0;
         string hold;
         vector<string> index;
         vector<vector<string>> res;
@@ -17,13 +16,11 @@ public:
                     index.push_back(hold);
                     res.push_back(vector<string> ());
                     res[j].push_back(i);
-                    cout << "1-> " << i << "\n";
                     break;
                 }
                 if (hold == index[j])
                 {
                     res[j].push_back(i);
-                    cout << "2-> " << i << "\n";
                     break;
                 }
             }
