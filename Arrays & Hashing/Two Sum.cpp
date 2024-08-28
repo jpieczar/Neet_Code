@@ -29,9 +29,9 @@ public:
 Runtime
 Details
 97ms
-Beats 18.79%of users with C++
+Beats 18.79% of users with C++
 Memory
 Details
 12.58MB
-Beats 93.07%of users with C++
+Beats 93.07% of users with C++
 */
